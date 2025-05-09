@@ -20,6 +20,7 @@
     "install": "npm run frontend-install && npm run backend-install",
     "backend-start": "npm run watch --prefix nasa-back-end",
     "frontend-start": "npm run start --prefix nasa-front-end",
-    "start": "npm run frontend-start & npm run backend-start"
+    "start": "npm run frontend-start & npm run backend-start",
+    "deploy": "npm run build --prefix nasa-front-end && npm run backend-start"
   }
 }
