@@ -1,0 +1,6 @@
+[submodule "nasa-back-end"]
+	path = nasa-back-end
+	url = git@github.com:Asad-Ullah-Turab/nasa-back-end.git
+[submodule "nasa-front-end"]
+	path = nasa-front-end
+	url = git@github.com:Asad-Ullah-Turab/nasa-front-end.git
