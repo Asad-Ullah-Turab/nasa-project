@@ -1,0 +1,25 @@
+{
+  "name": "nasa-project",
+  "version": "1.0.0",
+  "description": "This repo consists submodules for nasa project backend and frontend",
+  "homepage": "https://github.com/Asad-Ullah-Turab/nasa-project#readme",
+  "bugs": {
+    "url": "https://github.com/Asad-Ullah-Turab/nasa-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asad-Ullah-Turab/nasa-project.git"
+  },
+  "license": "ISC",
+  "author": "Asad-Ullah-Turab",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend-install": "npm install --prefix nasa-back-end",
+    "frontend-install": "npm install --prefix nasa-front-end",
+    "install": "npm run frontend-install && npm run backend-install",
+    "backend-start": "npm run watch --prefix nasa-back-end",
+    "frontend-start": "npm run start --prefix nasa-front-end",
+    "start": "npm run frontend-start & npm run backend-start"
+  }
+}
